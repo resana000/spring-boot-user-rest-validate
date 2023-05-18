@@ -18,7 +18,7 @@ public interface UserRepository extends JpaRepository<User, Long>, JpaSpecificat
     Optional<User> findById(Long id);
 
     /**
-     * корректно работает потому что сочетание логики в операторах is null or =
+     * работает как и specification потому что сочетание логики в операторах is null or =
      */
     @Query("SELECT u FROM User u WHERE (:name is null or u.name = :name) " +
             "and (:lastName is null or u.lastName = :lastName)" +
