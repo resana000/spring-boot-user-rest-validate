@@ -45,7 +45,6 @@ public class User {
     @Column(length = 11)
     String passportNumber;
 
-    @Pattern(regexp = "7\\d{10}")
     @NotEmpty(groups = {CaseByMobile.class, CaseByGosuslugi.class})
     @Column(length = 11)
     String phoneNumber;
