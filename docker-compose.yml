@@ -18,4 +18,4 @@ services:
       DB_PASSWORD: admin
       kafka-serv: kafka:9092
 
-    restart: always
+#    restart: always
