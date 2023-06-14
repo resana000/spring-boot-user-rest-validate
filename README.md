@@ -1,13 +1,11 @@
 ildar
 
-Стек
-spring boot docker validation mockmvc тесты swagger
-
-
+spring boot, docker, validation, mockmvc, swagger
+-
 Валидатор проверяет по xSource DTO, 
 либо xSource из ThreadLocal   
 обеспечено масштабирование валидации полей за счет кастомной реализации
-
+-
 запуск ./install.sh или команды по очереди
 1 сборка mvn clean package
 2 докеризация docker build -t sprinbootcore:dev .
