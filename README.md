@@ -4,9 +4,9 @@ ildar
 spring boot docker validation mockmvc тесты swagger
 
 
-Валидатор проверяет по xSource из контроллера поля User, 
+Валидатор проверяет по xSource DTO, 
 либо xSource из ThreadLocal   
-обеспечено масштабирование валидации полей за счет свойства groups
+обеспечено масштабирование валидации полей за счет кастомной реализации
 
 запуск ./install.sh или команды по очереди
 1 сборка mvn clean package
